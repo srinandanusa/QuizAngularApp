@@ -18,7 +18,7 @@ export class QuizQuestionsComponent implements OnInit {
   selectedCategory: number = 0;
 
   selectedDifficulty: string = 'Select difficulty';
-  difficultyOptions: string[] = ['Select difficulty', 'Easy', 'medium', 'hard'];
+  difficultyOptions: string[] = ['Select difficulty', 'easy', 'medium', 'hard'];
 
   quizQuestions: Questions[] = [];
 
